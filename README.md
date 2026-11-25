@@ -2,7 +2,15 @@
 
 O FeedNPlay é uma parede de ecrãs interativa instalada no corredor de entrada do Departamento de Engenharia Informática da Universidade de Coimbra (DEI-FCTUC). É um meio de comunicação do departamento com a sua comunidade e com quem o visita, e uma tela para mostrar, explorar e experimentar trabalho na interseção entre ciência, tecnologia, arte e design.
 
-![Parede FeedNPlay: 9 monitores 1080 × 1920 em retrato, 9720 × 1920 no total](docs/wall.svg)
+```
+├───────────── 9720 px ─────────────┤
+┌───┬───┬───┬───┬───┬───┬───┬───┬───┐ ┬
+│   │   │   │   │   │   │   │   │   │ │
+│ 1 │ 2 │ 3 │ 4 │ 5 │ 6 │ 7 │ 8 │ 9 │ 1920 px
+│   │   │   │   │   │   │   │   │   │ │
+└───┴───┴───┴───┴───┴───┴───┴───┴───┘ ┴
+├───┤ 1080 px
+```
 
 Este repositório reúne as especificações da parede e um conjunto de exemplos que servem de ponto de partida a quem quiser criar conteúdos para o FeedNPlay.
 
