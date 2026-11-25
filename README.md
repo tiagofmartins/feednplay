@@ -67,9 +67,9 @@ Qualquer pessoa pode propor conteúdos. As propostas passam por um processo de c
  │ Matrox1 │ │ Matrox2 │ │ Matrox3 │
  └────┬────┘ └────┬────┘ └────┬────┘
       │           │           │       HDMI–USB-C
-      │   ┌───────┴───────┐   │
-      └───┤ Mac Studio M5 ├───┘
-          └───────────────┘
+      │    ┌──────┴──────┐    │
+      └────┤  Computador ├────┘
+           └─────────────┘
 ```
 
 ## Criar conteúdos
