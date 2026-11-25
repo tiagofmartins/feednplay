@@ -2,16 +2,6 @@
 
 O FeedNPlay é uma parede de ecrãs interativa instalada no corredor de entrada do Departamento de Engenharia Informática da Universidade de Coimbra (DEI-FCTUC). É um meio de comunicação do departamento com a sua comunidade e com quem o visita, e uma tela para mostrar, explorar e experimentar trabalho na interseção entre ciência, tecnologia, arte e design.
 
-```
-├───────────── 9720 px ─────────────┤
-┌───┬───┬───┬───┬───┬───┬───┬───┬───┐ ┬
-│   │   │   │   │   │   │   │   │   │ │
-│ 1 │ 2 │ 3 │ 4 │ 5 │ 6 │ 7 │ 8 │ 9 │ 1920 px
-│   │   │   │   │   │   │   │   │   │ │
-└───┴───┴───┴───┴───┴───┴───┴───┴───┘ ┴
-├───┤ 1080 px
-```
-
 Este repositório reúne as especificações da parede e um conjunto de exemplos que servem de ponto de partida a quem quiser criar conteúdos para o FeedNPlay.
 
 ## O que é
@@ -47,6 +37,16 @@ Qualquer pessoa pode propor conteúdos. As propostas passam por um processo de c
 - Dimensões físicas da parede: 6,12 × 1,21 m.
 - Frequência de atualização: 60 Hz.
 
+```
+├───────────── 9720 px ─────────────┤
+┌───┬───┬───┬───┬───┬───┬───┬───┬───┐ ┬
+│   │   │   │   │   │   │   │   │   │ │
+│ 1 │ 2 │ 3 │ 4 │ 5 │ 6 │ 7 │ 8 │ 9 │ 1920 px
+│   │   │   │   │   │   │   │   │   │ │
+└───┴───┴───┴───┴───┴───┴───┴───┴───┘ ┴
+├───┤ 1080 px
+```
+
 ### Interação
 
 - Uma câmara a cerca de 6 metros de altura, com uma perspetiva aérea do espaço à frente do FeedNPlay.
@@ -57,6 +57,20 @@ Qualquer pessoa pode propor conteúdos. As propostas passam por um processo de c
 
 - Mac Studio M5.
 - O computador liga-se aos 9 monitores através de 3 Matrox QuadHead2Go Q155 HDMI, cada uma a alimentar 3 monitores. Por isso, o computador vê 3 ecrãs de 3240 × 1920, lado a lado, um por cada trio de monitores. Para ocupar a parede toda, a aplicação deve abrir uma única janela sem moldura com 9720 × 1920 que atravesse os 3 ecrãs.
+
+```
+┌───┬───┬───┬───┬───┬───┬───┬───┬───┐
+│ 1 │ 2 │ 3 │ 4 │ 5 │ 6 │ 7 │ 8 │ 9 │
+└─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┘
+  │   │   │   │   │   │   │   │   │   HDMI
+ ┌┴───┴───┴┐ ┌┴───┴───┴┐ ┌┴───┴───┴┐
+ │ Matrox1 │ │ Matrox2 │ │ Matrox3 │
+ └────┬────┘ └────┬────┘ └────┬────┘
+      │           │           │       HDMI–USB-C
+      │   ┌───────┴───────┐   │
+      └───┤ Mac Studio M5 ├───┘
+          └───────────────┘
+```
 
 ## Criar conteúdos
 
